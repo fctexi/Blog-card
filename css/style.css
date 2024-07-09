@@ -1,0 +1,95 @@
+html {
+    font-size: 62.5%;
+    color: var(--black);
+    /* 1.6rem = 16px */
+}
+
+body {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Figtree';
+}
+
+main {
+    background-color: var(--white);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid var(--black);
+    box-shadow: 10px 10px var(--black);
+}
+
+.imagem-card {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* ----CONTEUDO---- */
+
+/* .conteudo {
+
+} */
+
+.conteudo h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    padding-block: 5px;
+    margin-block: 12px;
+    border-radius: 5px;
+    width: 25%;
+    background-color: var(--primary-color);
+}
+
+.conteudo h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.conteudo a {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--black);
+    transition: 0.3s ease;
+}
+
+.conteudo a:hover {
+    color: var(--primary-color);
+}
+
+.conteudo p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--grey);
+    padding-block: 10px;
+}
+
+/* ----AVATAR---- */
+
+.avatar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.avatar .imagem-avatar {
+    width: 10%;
+}
+
+.avatar p {
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding-left: 10px;
+}
